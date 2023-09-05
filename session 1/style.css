@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    width: 100%;
+    background-color: rgb(24, 40, 40);
+}
+
+.container{
+    width:960 ;
+    margin: auto;
+    background-color: white;
+}
+
+.container .banner {
+width: 100px;
+height: 400px;
+background-color: rgb(31, 31, 40);
+
+}
+
+.container .banner .box{
+    width: 200px;
+    height: 200px;
+    color: orange;
+}

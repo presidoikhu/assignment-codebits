@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-left: 25%;
+}
+
+table {
+    background-color: orange;
+    height: 400px;
+    width: 700px;
+    border-collapse: separate; /* Use separate border model */
+    border-spacing: 10px; /* Adjust the spacing as desired */
+}
+
+h1 {
+    margin-left: 25%;
+}
+
+th {
+    text-align: right;
+    height: 50px;
+    font-size: 30px;
+}
+
+td {
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+}
+
+.white-text {
+    color: blue;
+    font-weight: bolder;
+    height: 50px;
+    width: 50px;
+}

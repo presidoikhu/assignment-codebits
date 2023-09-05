@@ -51,7 +51,14 @@ display: block;
 
 }
 
+.first {
+    
+    word-spacing: 20px;
+    
+  }
+  
 
-num= #3c4043
+
+/* num= #3c4043 
 td = #5f6368
-equal = #8ab4f8
+equal = #8ab4f8 */

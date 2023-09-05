@@ -7,7 +7,7 @@ body {
 }
 
 table {
-    background-color: orange;
+    /* background-color: orange; */
     height: 400px;
     width: 700px;
     border-collapse: separate; /* Use separate border model */
@@ -29,11 +29,39 @@ td {
     height: 50px;
     width: 50px;
     border-radius: 10%;
+   background-color: orange;
+    
 }
 
 .white-text {
-    color: blue;
+    
     font-weight: bolder;
     height: 50px;
     width: 50px;
+    background-color: white;
 }
+
+.num-color{
+    background-color: blue;
+} 
+
+Svg{
+height: 40px;
+display: block;
+
+}
+
+.first {
+    
+    word-spacing: 20px;
+    
+  }
+  
+#num-color2{
+    color: blue;
+    font-weight: bolder;
+}
+
+/* num= #3c4043 
+td = #5f6368
+equal = #8ab4f8 */

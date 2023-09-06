@@ -53,7 +53,7 @@
   .container .main {
     width: 100%;
     display: flex;
-    /* justify-content: space-around; */
+    justify-content: space-between; 
     flex-wrap: nowrap;
     margin-left: 2%;
     border-top: 2px;
@@ -73,6 +73,14 @@
 
   .main-border{
     margin-left: 0%;
+    
+    
+  }
+
+  .space{
+   
+  }
+  .space2{
     
   }
   

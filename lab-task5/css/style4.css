@@ -47,33 +47,96 @@
   
   .first-img {
     margin-bottom: 20px;
+    
   }
 
-  .secondword{
-  
-    display: inline;
-    width: 100%;
-    justify-content: space-evenly; 
-    flex-wrap:wrap ;
-    align-items: center;
-    width: 100%;
-    display: inline-block;
-    width: 50%; /* or any other width you prefer */
-    height: 100px; 
+  .mainword{
+  display: flex;
+  justify-content: space-between;
+ 
 }
 
-.footer-banner{
+.mainword2{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  border-right: 0px;
+  border-left: 0px;
+  border-style: dotted;
+  border-top: 0px;
+  border-bottom: 2px;
+  margin-bottom: ;
+
+ 
+}
+.line{
+  border-top: 1px;
+  border-right: 0px;
+  border-left: 0px;
+  border-style: dotted;
+  margin-bottom: 30px;
+  
+}
+.secondword{
+  width: 48%;
+  border-right: 0px;
+  border-left: 0px;
+  border-style: dotted;
+  border-top: 0px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+.justifyword{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.justifyword{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.thirdword{
+  width: 48%;
+  border-right: 0px;
+  border-left: 0px;
+  border-style: dotted;
+  border-top: 0px;
+
+}
+
+
+.container.footer p{
+    width: 70%;
+    height: 80px;
+    display: flex;
+}
+.container footer ul{
     background-color: black;
     height: 50px;
-    
-    
-   
-  
-  
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: left;
+    border-top: 0px;
 
 }
 
-.second-anchor{
+.container footer ul li{
+    margin: 5px 20px;
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
+
+.container footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* .second-anchor{ 
     color: white;
     font-weight: bolder;
     display: flex;
@@ -82,4 +145,12 @@
 
     
     
+}*/
+
+#lastborder{
+    border-bottom: 0px;
+}
+
+button{
+  margin-bottom: 20px;
 }

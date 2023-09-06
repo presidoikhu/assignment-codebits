@@ -107,9 +107,11 @@ a{
 }
 
 .container .main .main-content{
-    width: 70%;
+    width: 980px;
     min-height: 100%;
-    margin-left: 2.5%;
+    margin-left: 0;
+    margin-right: 0px;
+    margin-top: 90px;
     
 }
 
@@ -155,21 +157,37 @@ img{
 
 
 .container .footer-widget{
+    
 
     display: flex;
     width: 100%;
     min-height: 450px;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
+    margin-top: 20px;
+    margin-left: 0px;
+  
     
 }
 
 .container .footer-widget .widget{
-width: 30%;
+width: 20%;
 height: 150px;
 background-color: orange;
 text-align: center;
 border-radius: 20px;
 
+}
+h6{
+    margin-top: 0px;
+}
+
+.aside-style{
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 509px;
+height: 761.988px;
+flex-shrink: 0;
+
+   
 }

@@ -67,23 +67,29 @@
   .container .main .main-content {
     width: 70%;
   
-    
-
+ 
   }
+
 
   .main-border{
     margin-left: 0%;
     
     
   }
+.mainstyle{
+  width: 100%;
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: nowrap;
+  margin-left: 2%;
+  border-top: 2px;
+  border-right: 0px;
+  border-left: 0px;
+  border-style: dotted;
+  border-bottom: 0px;
+  
+}
 
-  .space{
-   
-  }
-  .space2{
-    
-
-  }
   
   .container .main aside {
     width: 30%;
@@ -229,14 +235,14 @@ height: 100px;
 }*/
 
 #lastborder{
-    border-bottom: 0px;
+  
 }
 .space, .space2{
   padding-right: 20px;
 }
 
-.space2{
-
+.space{
+margin-top: 5%;
 }
 
 .bottom-line{

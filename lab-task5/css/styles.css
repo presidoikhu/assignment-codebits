@@ -90,6 +90,10 @@
   
 }
 
+.main-h3{
+  
+}
+
   
   .container .main aside {
     width: 30%;
@@ -206,7 +210,7 @@ height: 100px;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     border-top: none;
 
 }
@@ -250,4 +254,13 @@ margin-top: 5%;
 }
 .lastborder{
   border-bottom: 0px;
+}
+
+h3 {
+  font-weight: normal;
+}
+.remove{
+  list-style: none;
+  text-decoration: none;
+  color: black;
 }

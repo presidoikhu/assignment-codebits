@@ -1,0 +1,91 @@
+
+body {
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.container {
+    text-align: center;
+    font-size: 20px;
+    background-color: aqua;
+    width: 960px;
+    height: 900px;
+    margin-left: 300px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 20px;
+   justify-content: space-between;
+   
+}
+
+/* ... (previous styles) ... */
+
+
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left; /* Align label text to the left */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block; /* Make the input elements full width */
+}
+
+.move-in{
+    margin-right: 150px;
+}
+
+textarea{
+    resize: none;
+    }
+
+    .required{
+        color: red;
+    }
+
+    .sub-style{
+        background-color: #b40e0e;
+        color:#eee;
+        cursor: pointer;
+        text-transform: uppercase;
+        height: 30px;
+        width: 200px;
+        margin-left: 90%;
+   
+    }
+.move-left{
+
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left; /* Align label text to the left */
+}
+
+.move-right{
+
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    text-align: left; /* Align label text to the left */
+}
+
+.fly1{
+    display: flex;
+    
+}

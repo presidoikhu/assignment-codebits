@@ -19,18 +19,20 @@
         <h2>Fill The Form Below</h2>
         <p>one of our representatives would get back to you as soon as possible</p>
         <form action="form-processor.html" method="get">
-            <label for="name">Name</label>
-            <input type="text" id="name">
+            <label for="name">Name <span class="required">*</span></label>
+            <input type="text" id="name" name="name" required autofocus 
+            placeholder="Example: james stuart" pattern="[a-zA-z0-9]+\s+[a-zA-z]+">
 
 
-            <label for="email">Email Address</label>
-            <input type="email"  id="email">
+            <label for="email">Email Address<span class="required">*</span></label>
+            <input type="email"  id="email" name="email" required placeholder="example@domain.com"
+            pattern="[a-zA-z0-9_.]+@[a-zA-Z0-9]+\.[a-zA-Z]{2,6}">
 
-            <label for="tel">Mobile Number</label>
-            <input type="tel" id="tel">
+            <label for="tel">Mobile Number<span class="required">(Optional)</span></label>
+            <input type="tel" id="tel" name="tel" required placeholder="09075874858">
 
-            <label for="message">message</label>
-            <textarea  id="message" cols="30" rows="5"></textarea>
+            <label for="message">message<span class="required">*</span></label>
+            <textarea  id="message" cols="30" rows="5" name="message" required placeholder="Type your message here"></textarea>
 
             <input type="submit" value="Send Message">
 

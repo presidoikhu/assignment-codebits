@@ -56,4 +56,28 @@ body{
 .container section form input{
     height: 35px;
     color: #062743;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.container section form textarea{
+resize: none;
+}
+
+.container section form input[type="submit"]{
+    background-color: #b40e0e;
+    color:#eee;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+}
+.required{
+    color: red;
+}
+#relocate1{
+margin-top: 20px;
+}
+#relocate2{
+    
 }

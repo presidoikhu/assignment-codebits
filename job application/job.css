@@ -116,8 +116,12 @@ textarea{
    
     
 }
-#shift-right2{
-    
-    
-    
+
+#skill-adjust{
+border: #b40e0e solid;
+margin: 0;
+}
+
+#skill-adjust2{
+    border: #b40e0e solid; 
 }

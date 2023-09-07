@@ -89,3 +89,35 @@ textarea{
     display: flex;
     
 }
+
+.remove-top{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+}
+
+#shift-right{
+
+}
+
+.check{
+    width: 105%;
+    
+}
+
+.check2{
+    width: 100%;
+    
+}
+#shift-right{
+    
+    padding-bottom: 0px;
+    margin-top: 10px;
+   
+    
+}
+#shift-right2{
+    
+    
+    
+}

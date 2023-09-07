@@ -1,9 +1,12 @@
-
+*{
+}
 body {
     width: 960px;
     display: flex;
     justify-content: center;
-    
+
+    background-image: linear-gradient(to right, #45FFCA , #FEFFAC);
+
     
 }
 
@@ -119,9 +122,10 @@ textarea{
 
 #skill-adjust{
 border: #b40e0e solid;
-margin: 0;
+
 }
 
 #skill-adjust2{
     border: #b40e0e solid; 
 }
+

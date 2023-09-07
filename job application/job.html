@@ -11,12 +11,13 @@
 <body>
     <section class="container">
 <section >
+    
         <h2>Job Application Form </h2>
         <h1>Please Fill Out the Form Below to Submit Your Job Application!</h1>
         <hr>
         <ul>
             <li>
-                <form action="form-processor.html" method="get">
+                <form action="form-processor-job.html" method="get">
                     <label for="name">Full Name <span class="required">*</span></label>
                     <input type="text" id="name" name="name" required autofocus 
                     placeholder="Example: james stuart" pattern="[a-zA-z0-9]+\s+[a-zA-z]+">
@@ -73,7 +74,7 @@
         <ul>
             <li>
                 
-                <label class="remove-top" >Skills:</label><br>
+                <label class="remove-top" >Skills<span class="required">*</span></label><br>
                 <div id="skill-adjust">
                 <div class="fly1" >
                 <input type="checkbox" id="skill1" name="skills" value="HTML" class="move-left">
@@ -92,7 +93,7 @@
 
             <li class="move-in">
                 
-                <label class="remove-top" >Years of Experience:</label><br>
+                <label class="remove-top" >Years of Experience<span class="required">*</span></label><br>
                 <div id="skill-adjust2">
                 <div class="fly1" >
                     <input type="radio" id="exp1" name="experience" value="0-1 " class="move-left">
